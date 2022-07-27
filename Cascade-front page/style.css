@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    background: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    height: 14%;
+}
+.navbar img {
+    height: 49%;
+    width: 25%;
+    margin: 20px 0px 0px 50px;
+}
+.navbar ul {
+    float: right;
+}
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;  
+    font-size: 16px;
+}
+.navbar li a:hover {
+    background: red;
+    padding: 8px;
+    border-radius: 14px;
+    transition: 0.5s;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+}
+.center h1, h2{
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    margin: 20px 0;
+}
+.buttons {
+    text-align: center;
+}
+button {
+    display: inline-block;
+    height: 53px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: 1px solid red;
+}
+button:hover {
+    background: rgba(255, 0, 0, 0.9);
+}
